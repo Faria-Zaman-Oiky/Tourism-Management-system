@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tour Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/booking.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Explore Bangladesh</h1>
+    <div class="packages">
+      
+      <div class="package">
+        <h3>Cox’s Bazar</h3>
+        <p>3 Days, 2 Nights | Sea Beach Tour | Hotel Stay Included</p>
+        <p><strong>Price: $150</strong></p>
+      </div>
+
+      <div class="package">
+        <h3>Sundarban</h3>
+        <p>4 Days, 3 Nights | Forest Safari | Boat & Food Included</p>
+        <p><strong>Price: $250</strong></p>
+      </div>
+
+      <div class="package">
+        <h3>Saint Martin Island</h3>
+        <p>3 Days, 2 Nights | Coral Island Tour | Ship Fare & Resort Stay</p>
+        <p><strong>Price: $300</strong></p>
+      </div>
+
+      <div class="package">
+        <h3>Rangamati</h3>
+        <p>2 Days, 1 Night | Hill Area & Kaptai Lake Tour</p>
+        <p><strong>Price: $120</strong></p>
+      </div>
+
+    </div>
+
+    <h2>Book Your Tour</h2>
+    <form action="booking.php" method="POST" class="booking-form">
+
+      <input type="text" name="name" placeholder="Your Full Name" required>
+
+      <input type="email" name="email" placeholder="Your Email" required>
+
+      <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" maxlength="10" required>
+
+      <select name="selected_package" required>
+        <option value="">-- Select Destination --</option>
+        <option value="Cox’s Bazar">Cox’s Bazar</option>
+        <option value="Sundarban">Sundarban</option>
+        <option value="Saint Martin Island">Saint Martin Island</option>
+        <option value="Rangamati">Rangamati</option>
+      </select>
+
+      <input type="date" name="travel_date" required>
+
+      <textarea name="message" placeholder="Any Special Request (optional)" rows="4"></textarea>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </div>
+
+</body>
+</html>
