@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/destination1.css">
+	<title>Destinations</title>
+	<style type="text/css">
+		.container .box .name-text input{
+			position: relative;
+			display: none;
+			background: transparent;
+			border: 1px solid #fff;
+			top: -20px;
+			color: #fff;
+			text-decoration: none;
+			transition: 0.6s ease;
+			text-align: center;
+		}
+		.btn{
+			padding: 5px 40px;
+		}
+		.btn1{
+			margin: 0px -20px;
+			padding: 5px 40px;
+		}
+		.btn2{
+			padding: 5px 60px;
+		}
+		.btn3{
+			padding: 5px 37px;
+			margin: 0px -2px;
+		}
+		.btn4{
+			padding: 5px 50px;
+		}
+		.btn5{
+			padding: 5px 25px;
+		}
+		.container .box:hover .name-text input{
+			display: block;
+			top: -20px;
+		}
+		.container .box .name-text input:hover{
+			background-color: #fff;
+		    color: #000;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="heading">Poupular Destinations</h1>
+	<div class="main">
+        <ul>
+          <ul class="list">
+            <li class="logo"><a href="mainPage1.html"><img src="earth-globe.png" alt="Logo" style="width:36px;height:36px"></a></li>
+            <div class="search">
+            <div class="search">
+	            <form method="POST" action="info.php">
+	              <input type="text" name="search_p" placeholder="Search.." size="50">
+	          
+	              <input type="image" name="submit_p" src="search_icon.png" alt="Search image" style="width:22;height:22; margin-left: 35px;">
+	            </form>
+          	</div>
+          </ul>
+          <ul class="list2">
+            <li><a href="mainPage1.html">Home</a></li>
+            <li class="active-menu"><a id="long" href="destination.html">Destination</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+			<li><a href="index.html">Logout</a></li>
+			<li><a href="booking.html">booking</a></li>
+          </ul>
+        </ul>
+    </div>
+	<div class="container">
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://media.istockphoto.com/id/1346172937/photo/drone-shot-of-coxs-bazar-teknaf-marine-drive.jpg?s=170667a&w=0&k=20&c=sw7Ei2Uaq4m5bur3koEP7ap_S9rWCG4bY58oGJgLkwg=" alt="Marine Drives road Image" style="width: auto; height: 270px;">
+			</div>
+			<div class="name-text name-pading1 top1">
+				<h3>Marine Drives Road</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="marine_drive_road_coxs_bazar" class="btn1" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://i0.wp.com/tourbuzzbd.com/wp-content/uploads/2023/09/Moheskhali-Island-Coxs-Bazar-02.jpg?resize=350%2C200&ssl=1" alt="Darianagar cave Image" width: auto;height: 270px;">
+			</div>
+			<div class="name-text name-pading2 top1">
+				<h3>Darianagar cave</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Darianagar_Cave" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJd0xGhCxVKJ51Qmt1L8EFNklt4lPCRDNCrg&s" alt="Baghona Pass Image">
+			</div>
+			<div class="name-text name-pading3 top1">
+				<h3>Baghona Pass Waterfall</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Baghona Pass waterfall" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.travelmate.com.bd/wp-content/uploads/2019/09/Tigers-Hiron-Point-Sundarbans.jpg.webp" alt="Hiron point Image">
+			</div>
+			<div class="name-text name-pading4 top1">
+				<h3>Hiron point Sundarban</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Hiron Point sundarban" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.sundarbantours.com/wp-content/uploads/2013/03/dublar-chor-sundarban-bangladesh.jpg" alt="Dublaarchar Image">
+			</div>
+			<div class="name-text name-pading5 top2">
+				<h3>Dublarchar Island Sundarban</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Dublarchar Island Sundarban" class="btn5" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.holidify.com/images/cmsuploads/compressed/Beauty_of_sundarban_04_20220509173753.jpg" alt="Sundadrban national park Image">
+			</div>
+			<div class="name-text name-pading6 top2">
+				<h3>Sundarban national Park</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Sundarban National Park" class="btn2" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.dhakaholidays.com/images/islands-bangladesh/st-martins-island-tour-bangladesh.jpg" alt="Local Villages of Saint martin Image">
+			</div>
+			<div class="name-text name-pading7 top2">
+				<h4>Local villages of Saint Martin</h4>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Local Villages of Saint Martin" class="btn3" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQara--YPsmAM0ach1Iz6CBoFYrYFSy7qwskg&s" alt="Coral Island Image">
+			</div>
+			<div class="name-text name-pading8 top2">
+				<h3>Coral Island</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Coral island" class="btn2" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://c8.alamy.com/comp/J03X69/the-saint-martins-island-locally-known-as-narikel-jinjira-teknaf-coxs-J03X69.jpg" alt="Narkel Jinjira Image">
+			</div>
+			<div class="name-text name-pading9 top3">
+				<h3>Narkel Jinjira</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Narikel Jinjira" class="btn3" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://rajbanbiharpagoda.wordpress.com/wp-content/uploads/2012/08/pagoda1.jpg?w=584" alt="Rajban Bihar Buddhist Temple Rangamati Image">
+				</div>
+			<div class="name-text name-pading10 top3">
+				<h5>RajbanBihar Buddhist Temple Rangamati</h5>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Rajban bihar BUddhist Temple" class="btn4" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://tse1.mm.bing.net/th/id/OIP.FKJsM3j0QBKOTXjWEz9ogQHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="jaflong image">
+				</div>
+			<div class="name-text name-pading11 top3">
+				<h3>jaflong</h3>
+				<form method="POST" action="info.php">
+					<input type="submit" name="jaflong" class="btn2" value="Visit">
+				</form>
+			</div>
+	</div>
+</body>
+</html>

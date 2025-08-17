@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bangladesh Entry Passport Check</title>
+    <link rel="stylesheet" type="text/css" href="css/destination1.css">
+
+</head>
+<body>
+    <h2>Bangladesh Entry Passport Check</h2>
+    <form action="passport1.php" method="POST">
+        <label>Are you a foreigner?</label><br>
+        <select name="foreigner" required>
+            <option value="">--Select--</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br><br>
+
+        <label>Passport Number (if foreigner):</label><br>
+        <input type="text" name="passport_number" placeholder="AB1234567">
+        <br><br>
+
+        <label>Passport Expiry Date (if foreigner):</label><br>
+        <input type="date" name="expiry_date">
+        <br><br>
+
+        <input type="submit" value="Check Entry">
+    </form>
+</body>
+</html>
